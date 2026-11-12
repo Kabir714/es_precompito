@@ -36,7 +36,7 @@ if ($_POST["calcola"] == "Calcola") {
     }
     
     if ($_POST["quadrato"] == "on") {
-        $risultato_finale = $risultato_finale * $risultato_finale;
+        $risultato_finale =$risultato_finale * $risultato_finale;
     }
     
     if ($_POST["arrotonda"] == "on") {
